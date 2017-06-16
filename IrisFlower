@@ -1,0 +1,8 @@
+from sklearn.datasets import load_iris
+import numpy as np
+from sklearn import tree
+
+iris = load_irisi
+
+for i in range(len(iris.target)):
+    print "Example %d: label %s, features %s" % (i, iris.target[i], iris.data[i])
